@@ -1,0 +1,184 @@
+/* general settings for centering items  */
+html,
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    margin: 0;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color: #FFE7F7;
+    padding: 1rem;
+}
+section {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    padding: 1rem;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #577AFF;
+}
+
+ol {
+    color: blacksmoke;
+}
+
+li {
+    padding: 1rem;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black; 
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: .5rem;
+    margin-top: 0;
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: .1rem;
+}
+
+#page-subtitle{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+#hero {
+    background-color: #629168; 
+    padding: 2rem"
+}
+
+
+#instagram-link {
+    background-color: rgb(194, 106, 167);
+    color: white;
+}
+
+#instagram-link:hover {
+    background-color: black;
+}
+
+#tiktok-link {
+    background-color: rgb(154, 106, 194);
+    color: white;
+}
+
+#tiktok-link:hover {
+    background-color: black;
+}
+
+#email-link {
+    background-color: rgb(115, 106, 194);
+    color: white;
+}
+
+#email-link:hover {
+    background-color: black;
+}
+
+.card-image {
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+    margin: 0;
+}
+
+/* nav */
+#nav-container {
+    display: flex;
+    align-self: center;
+    background-color: #FFE7F7;
+    width: 600px;
+}
+nav {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: .5rem;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    list-style-type: none;
+}
+
+a {
+    background-color: transparent;
+    padding: 1rem;
+    margin: 0;
+    border-radius: 15px;
+    color: black;
+}
+
+a:hover {
+    /* background-color: rgba(rgb(63, 63, 63), green, blue, alpha); */
+    background-color: rgba(0, 0, 0, 0.089);
+    color: black;
+}
+
+
+button {
+    display: flex;
+    align-self: center;
+    width: fit-content;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: none;
+    border: none;
+    padding: .7rem;
+    background-color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+button:hover {
+    transition: all .1s;
+    background-color: rgb(228, 228, 228);
+}
