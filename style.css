@@ -182,3 +182,56 @@ button:hover {
     transition: all .1s;
     background-color: rgb(228, 228, 228);
 }
+
+@media (min-width: 320px) {
+  /* Styling for mobile devices */
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Styling for tablets */
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Styling for small screens */
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* Styling for large screens */
+  body {
+    font-size: 20px;
+  }
+  img {
+    display: flex;
+    width: 1000px;
+    height: auto;
+    align-self: center;
+  }
+  h1 {
+    margin: 0px 200px;
+  }
+}
+
+@media (min-width: 1201px) {
+  /* Styling for extra large screens */
+  body {
+    font-size: 22px;
+  }
+  img {
+    display: flex;
+    width: 1000px;
+    height: auto;
+    align-self: center;
+  }
+  h1 {
+    margin: 0px 200px;
+  }
+}
